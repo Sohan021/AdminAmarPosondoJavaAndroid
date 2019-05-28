@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257275293990",
+    "firebase_url": "https://adminamarposondo-48c49.firebaseio.com",
+    "project_id": "adminamarposondo-48c49",
+    "storage_bucket": "adminamarposondo-48c49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257275293990:android:324a6d0712d42e24",
+        "android_client_info": {
+          "package_name": "com.amarposondo.windows10.adminamarposondo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257275293990-s4i71f9g07s100sivaiq3cg4og44gd3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amarposondo.windows10.adminamarposondo",
+            "certificate_hash": "ff15ea894f37fbd9127d76e87111d217627611e9"
+          }
+        },
+        {
+          "client_id": "257275293990-97gjsrtb7itikodcsn4mod81jd0be5m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF5RutUm4oWDQ80D-gRFesey8LVdIpNg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257275293990-97gjsrtb7itikodcsn4mod81jd0be5m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

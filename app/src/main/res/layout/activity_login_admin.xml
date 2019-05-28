@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivityAdmin">
+    <EditText
+        android:id="@+id/editTextPhonelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="01234567890"
+        android:ems="11"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:id="@+id/editpasswordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Enter password"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editTextPhonelogin"
+        />
+    <CheckBox
+        android:id="@+id/rememberme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editpasswordlogin"
+        android:layout_marginTop="10dp"
+        android:text="RemamberMe"
+        />
+    <Button
+        android:id="@+id/loginid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editpasswordlogin"
+        />
+</RelativeLayout>

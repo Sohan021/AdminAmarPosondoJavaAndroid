@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivityAdmin">
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="01234567890"
+        android:ems="11"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/buttonverificationcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Verification Code"
+        android:textAllCaps="false"
+        android:layout_below="@+id/editTextPhone"
+        />
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="01234567890"
+        android:ems="11"
+        android:hint="Enter Code"
+        android:inputType="phone"
+        android:layout_below="@+id/buttonverificationcode"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:hint="Enter password"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editCode"
+        />
+
+    <Button
+        android:id="@+id/Sign_Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:layout_below="@+id/editpassword"
+        />
+
+
+
+    <Button
+        android:id="@+id/Sign_In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Sign_Up"
+        />
+
+
+
+</RelativeLayout>

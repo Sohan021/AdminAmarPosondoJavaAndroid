@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amarposondo.windows10.adminamarposondo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.LoginActivityAdmin" />
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.RegistrationActivityAdmin" />
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.AdminCategoryActivity" />
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.AdminNewOrdersActivity" />
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.AdminAddNewProductActivity" />
+        <activity android:name="com.amarposondo.windows10.adminamarposondo.AdminUserProductctivity" />
+        <activity
+            android:name="com.amarposondo.windows10.adminamarposondo.AllProductsActivity"
+            android:label="@string/title_activity_all_products"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
